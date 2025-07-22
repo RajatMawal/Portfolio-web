@@ -1,13 +1,14 @@
 import React from "react";
 import { FaLinkedin, FaGithub } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
+import waves from "../assets/svg.png";
 
 const Footer = () => {
   return (
     <footer className="relative w-full h-[50vh] bg-black text-white overflow-hidden">
       {/* Background Wave Image */}
       <img
-        src="./src/assets/svg.png"
+        src={waves}
         alt="footer waves"
         className="w-full h-full object-cover absolute top-0 left-0 z-0 opacity-20"
       />
