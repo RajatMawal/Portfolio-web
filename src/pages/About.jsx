@@ -9,9 +9,9 @@ const About = () => {
   }, []);
 
   return (
-    <div className="w-full min-h-screen bg-gradient-to-b from-black via-slate-900 to-black py-20 px-6 md:px-20 font-sans">
+    <div className="w-full min-h-screen bg-gradient-to-b from-black via-slate-900 to-black py-20 px-2 sm:px-6 md:px-20 font-sans overflow-x-hidden ">
       {/* Header */}
-      <div className="relative text-center mb-16" data-aos="fade-up">
+      <div className="relative text-center mb-16 " data-aos="fade-up">
         <h1 className="text-[12vw] md:text-[10vw] text-white font-extrabold opacity-5 absolute w-full top-1">
           ABOUT ME
         </h1>
@@ -21,16 +21,16 @@ const About = () => {
       </div>
 
       {/* Main Content */}
-      <div className="flex flex-col md:flex-row items-center gap-10">
+      <div className="flex flex-col md:flex-row items-center gap-6 md:gap-10 ">
         {/* Profile Section */}
         <div
           data-aos="fade-right"
-          className="w-full md:w-[35%] relative bg-gradient-to-br from-purple-500 to-blue-600 p-1 rounded-[120px_0px_140px_0px] overflow-hidden shadow-[0_20px_50px_rgba(0,0,0,0.6)]"
+          className="w-full max-w-xs sm:max-w-sm md:w-[35%] relative bg-gradient-to-br from-purple-500 to-blue-600 p-1 rounded-[60px_0px_70px_0px] md:rounded-[120px_0px_140px_0px] overflow-hidden shadow-[0_20px_50px_rgba(0,0,0,0.6)]"
         >
           <img
             src="/src/assets/p-pic.png"
             alt="Rajat Mawal"
-            className="w-full h-full object-cover rounded-[120px_0px_140px_0px] hover:scale-[1.02] transition-all duration-500"
+            className="w-full h-full object-cover rounded-[60px_0px_70px_0px] md:rounded-[120px_0px_140px_0px] hover:scale-[1.02] transition-all duration-500"
             style={{
               filter: "drop-shadow(0 0 20px rgba(0,0,0,0.7))",
             }}
@@ -40,7 +40,7 @@ const About = () => {
         {/* Text Content */}
         <div
           data-aos="fade-left"
-          className="bg-white/10 backdrop-blur-md text-white w-full md:w-[60%] rounded-xl p-6 md:p-10 shadow-lg hover:shadow-white/30 transition duration-500"
+          className="bg-white/10 backdrop-blur-md text-white w-full md:w-[60%] rounded-xl p-3 sm:p-6 md:p-10 shadow-lg hover:shadow-white/30 transition duration-500"
         >
           <p className="text-base md:text-lg mb-6 leading-relaxed">
             <span className="text-2xl font-semibold">Hi, I'm Rajat Mawal,</span>

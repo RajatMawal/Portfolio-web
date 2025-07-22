@@ -55,16 +55,16 @@ const Home = () => {
   };
 
   return (
-    <div className="relative w-full bg-black text-white overflow-hidden h-[50vh] md:h-full" >
+    <div className="relative w-full bg-black text-white overflow-x-hidden h-[50vh] overflow-y-hidden md:h-full" >
       {/* Glowing Backgrounds */}
       <div className="absolute inset-0 z-0 overflow-hidden ">
-        <div className="absolute w-96 h-96 bg-purple-500/20 rounded-full blur-3xl animate-pulse top-10 left-10"></div>
-        <div className="absolute w-72 h-72 bg-pink-500/10 rounded-full blur-2xl animate-spin-slow bottom-10 right-10"></div>
-        <div className="absolute w-60 h-60 bg-blue-500/10 rounded-full blur-2xl animate-ping top-1/2 left-1/3"></div>
+        <div className="absolute w-48 h-48 md:w-96 md:h-96 bg-purple-500/20 rounded-full blur-3xl animate-pulse top-4 left-4 md:top-10 md:left-10"></div>
+        <div className="absolute w-36 h-36 md:w-72 md:h-72 bg-pink-500/10 rounded-full blur-2xl animate-spin-slow bottom-4 right-4 md:bottom-10 md:right-10"></div>
+        <div className="absolute w-28 h-28 md:w-60 md:h-60 bg-blue-500/10 rounded-full blur-2xl animate-ping top-1/2 left-1/4 md:left-1/3"></div>
       </div>
 
       {/* Main Content */}
-      <div className="relative z-10 flex flex-col py-20 md:flex-row items-center justify-between min-h-screen px-6 md:px-12 gap-10 py-10">
+      <div className="relative z-10 flex flex-col py-20 md:flex-row items-center justify-between min-h-screen px-6 md:px-12 gap-10 py-10 ">
         {/* Left Content */}
         <motion.div
           className="w-full max-w-xl text-center md:text-left"
@@ -82,7 +82,7 @@ const Home = () => {
             <span className="blinking-cursor">|</span>
           </h1>
 
-          <div className="flex flex-wrap items-center gap-4 mb-6 text-sm md:text-base justify-center md:justify-start">
+          <div className="flex flex-wrap items-center gap-4 mb-6 text-sm md:text-base justify-center md:justify-start ">
             <NavLink
               to="/Contact"
               className="flex items-center gap-3 bg-gradient-to-r from-blue-500 to-indigo-600 text-white px-6 py-2 rounded-full hover:scale-105 transition font-medium shadow-md"
