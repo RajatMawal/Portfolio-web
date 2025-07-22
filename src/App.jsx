@@ -19,7 +19,7 @@ const App = () => {
       <Route path="/home" element={<Home/>}/>
       <Route path="/about" element={<About/>}/>
       <Route path="/skills" element={<Skills/>}/>
-      <Route path="/projects" element={<Projects/>}/>
+      <Route path="/Projects" element={<Projects/>}/>
       <Route path="/contact" element={<Contact/>}/>
     </Routes>
       <ToastContainer />
