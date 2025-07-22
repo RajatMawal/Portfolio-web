@@ -26,7 +26,7 @@ const About = () => {
         {/* Profile Section */}
         <div
           data-aos="fade-right"
-          className="w-full max-w-xs sm:max-w-sm md:w-[35%] relative bg-gradient-to-br from-purple-500 to-blue-600 p-1 rounded-[60px_0px_70px_0px] md:rounded-[120px_0px_140px_0px] overflow-hidden shadow-[0_20px_50px_rgba(0,0,0,0.6)]"
+          className="w-full max-w-xs sm:max-w-xl md:w-[35%] relative bg-gradient-to-br from-purple-500 to-blue-600 p-1 rounded-[60px_0px_70px_0px] md:rounded-[120px_0px_140px_0px] overflow-hidden shadow-[0_20px_50px_rgba(0,0,0,0.6)]"
         >
           <img
             src={profilePic}

@@ -2,6 +2,7 @@ import ProjectsShowcase from "../components/ProjectsShowcase";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
+import flower from "../assets/gpt-Flower.png"
 
 const Projects = () => {
   useEffect(() => {
@@ -20,7 +21,7 @@ const Projects = () => {
         data-aos-duration="2000"
       >
         <img
-          src="/src/assets/gpt-Flower.png"
+          src={flower}
           alt="Flower"
           className="w-[25vw] drop-shadow-[0_10px_20px_rgba(255,255,255,0.15)] hover:rotate-[5deg] transition duration-500 ease-in-out"
         />
