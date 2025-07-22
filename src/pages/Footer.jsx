@@ -7,7 +7,7 @@ const Footer = () => {
     <footer className="relative w-full h-[50vh] bg-black text-white overflow-hidden">
       {/* Background Wave Image */}
       <img
-        src="/src/assets/svg.png"
+        src="./src/assets/svg.png"
         alt="footer waves"
         className="w-full h-full object-cover absolute top-0 left-0 z-0 opacity-20"
       />
