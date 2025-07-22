@@ -1,0 +1,26 @@
+
+body {
+  margin: 0;
+  overflow-x: hidden;
+}
+
+.horizontal-scroll-wrapper {
+  height: 100vh;
+  width: 400vw;
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  transition: transform 0.1s ease-out;
+}
+
+.horizontal-scroll-wrapper section {
+  flex: 0 0 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+  background: #f0f0f0;
+  border-right: 1px solid #ccc;
+}
